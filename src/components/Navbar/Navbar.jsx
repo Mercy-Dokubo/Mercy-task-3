@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav>
       <h1 className="logo" onClick={() => navigate("/gallery")}>
-        AIGallery
+        Drag&Drop
       </h1>
       <SearchBar />
     </nav>

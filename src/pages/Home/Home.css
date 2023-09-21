@@ -10,11 +10,10 @@
 .image__card:hover {
   cursor: pointer;
   transition: 0.2s;
-  scale: 1.05;
 }
 
 .image__card img {
-  width: 300px;
+  width: 320px;
   height: 400px;
   object-fit: cover;
 }

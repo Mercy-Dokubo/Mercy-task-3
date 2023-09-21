@@ -40,7 +40,7 @@ const Home = () => {
         {images &&
           images?.map((image, index) => {
             const slicedDescription =
-              image?.alt_description?.slice(0, 30) + "...";
+              image?.alt_description?.slice(0, 35) + "...";
 
             return (
               <div className="image__card">
